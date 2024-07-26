@@ -7,14 +7,34 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 
-<body>
-    <header class="flex">
-       <div class="left-head">
+<body class="bg-[#fafafa]">
+    <header class="flex justify-between bg-white h-[58px] shadow-[0_0px_10px_rgba(3,3,3,0.04)]">
+        <div class="left-head flex items-center">
+            <a href="" class="bg-[#153E90] h-full w-24 md:w-[236px] p-4 flex justify-center items-center "><img src="/assets/logo/bett_logo.webp"width="62" height="17" alt=""></a>
+            <p class="px-3 text-sm font-medium text-[#404257]">My Experience</p>
+        </div>
+        <div class="righth-head hidden md:flex px-3.5">
+            <nav class="h-full">
+                <ul class="flex items-center h-full">
+                    <li><a href="" class="text-[#D61355] text-xs font-medium px-3.5">
+                        <span class="bg-[url('/assets/icons/target.png')] inline-block bg-no-repeat bg-contain w-3.5 h-3.5 mr-1.5 align-middle"></span>
+                        <span>My Actions(6)</span>
+                    </a></li>
+                    <li><a href="" class="text-[#404257] text-xs font-medium px-3.5">
+                        <span class="bg-[url('/assets/icons/help.png')] inline-block bg-no-repeat bg-contain w-3.5 h-3.5 mr-1.5 align-middle"></span>
+                        <span>FAQs</span>
+                    </a></li>
+                    <li><a href="" class="text-[#404257] text-xs font-medium px-3.5">
+                        <span class="bg-[url('/assets/icons/logout.png')] inline-block bg-no-repeat bg-contain w-3.5 h-3.5 mr-1.5 align-middle"></span>
+                        <span>Logout</span>
+                    </a></li>
+                    
 
-       </div>
-       <div class="righth-head"></div>
-        <div class="hamburger">
-            <button></button>
+                </ul>
+            </nav>
+        </div>
+        <div class="hamburger flex md:hidden h-full p-3.5">
+            <button class="bg-[url('/assets/icons/hamburger.png')] bg-no-repeat bg-contain inline-block w-5 h-5 cursor-pointer outline-none border-none bg-transparent"></button>
         </div>
     </header>
 </body>
